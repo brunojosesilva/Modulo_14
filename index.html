@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bungee&family=Oswald:wght@200&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Exercicio Módulo 14</title>
+</head>
+<body>
+    <header class="navbar sticky-top navbar-expand-lg" id="menu-item">
+        <div class="container">
+            <h1 class="navbar-brand m-2">R2 Fitness Club</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-header">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-header">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolt" href="#sobre-academia"><i class="bi bi-house-door me-1"></i>Sobre a academia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolt" href="#estrutura"><i class="bi bi-fire me-1"></i>Estrutura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolt" href="#planos"><i class="bi bi-pass-fill me-1"></i>Nossos Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolt" href="#contato"><i class="bi bi-chat-left-text me-1"></i>Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="menu-item" data-bs-smooth-scroll="true">
+        <section id="sobre-academia">
+            <div class="carousel slide" id="button-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/foto1-header.jpg" alt="Foto" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/foto2-header.jpg" alt="Foto" class="w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/foto3-header.jpg" alt="Foto" class="w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#button-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#button-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#button-carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#button-carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#button-carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div>
+                <div class="container mb-5 mt-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./imagens/estrutura.jpg" alt="academia" class="w-100">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Sobre a academia</h2>
+                            <ul>
+                                <li>Equipamentos de alto padrão</li>
+                                <li>Salas exclusivas de aulas</li>
+                                <li>Musculação e cárdio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estrutura" class="mb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5">Nossa estrutura</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imagens/estrutura1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>Equipamentos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint neque, esse saepe ipsa reiciendis voluptates eligendi fugit laudantium eos libero sunt atque sequi nostrum dolorem, iure in porro sapiente repellat.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/estrutura2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>Sala de alongamento</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quae totam excepturi adipisci modi officiis asperiores accusamus provident nisi pariatur id, nemo minima velit amet perferendis et eligendi aperiam rem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/estrutura3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>Cárdio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi hic aliquam placeat enim in tempore officia possimus ipsam libero, temporibus ratione unde itaque totam aperiam, quidem tempora? Velit, harum ipsa?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="planos"  class="pb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5">Nossos planos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3">
+                        <nav class="nav nav-pills">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nossos-planos" class="nav-link fw-bold text-start active">Conheça nossos planos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#matricula" class="nav-link fw-bold text-start">Faça sua matricula</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#franqueado" class="nav-link fw-bold text-start">Seja um franqueado</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="nossos-planos">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./imagens/sports-1975689_640.png" alt="">
+                                        <h5 class="mt-2 fw-bold">Planos</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum nesciunt, ipsam, officia ex ad quidem ducimus dolor sunt dolores repellat. Repellendus deleniti enim laudantium nam? Praesentium illo inventore suscipit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="matricula">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./imagens/dumbbells-2465478_640.jpg" alt="">
+                                        <h5 class="mt-2 fw-bold">Matricula</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum nesciunt, ipsam, officia ex ad quidem ducimus dolor sunt dolores repellat. Repellendus deleniti enim laudantium nam? Praesentium illo inventore suscipit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="franqueado">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./imagens/crossfit-534615_640.jpg" alt="">
+                                        <h5 class="mt-2 fw-bold">Franqueado</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum nesciunt, ipsam, officia ex ad quidem ducimus dolor sunt dolores repellat. Repellendus deleniti enim laudantium nam? Praesentium illo inventore suscipit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5">Fale consco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome:</label>
+                                <input type="text" name="nome" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu email:</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone:</label>
+                                <input type="tel" name="telefone" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem:</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3>
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua de exemplo, bairro xxx, nr 12,  Brasilia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

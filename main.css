@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #ee5253;
+}
+
+.container h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #222f3e;
+}
+
+.nav-item a {
+    color: #222f3e;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: white
+}
+
+#menu-item .nav .nav-link.active {
+    color: white;
+    background-color: #222f3e;
+}
+
+h2 {
+    color:#222f3e;
+    border-bottom: 3px solid #ee5253;
+}
+
+#estrutura h3 {
+    color:#222f3e;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#planos aside {
+    border-right: 1px solid #ee5253;
+}
+
+#planos .nav .nav-link {
+    color: #222f3e;
+}
+
+#planos .nav .nav-link.active {
+    color: white;
+    background-color: #ee5253;
+}
+
+.social {
+    margin-left: 20px;
+}
+
+.social i {
+    margin-left: 20px;
+    color: #222f3e;
+}
+
+#contato button {
+    background-color: #ee5253;
+    color: #222f3e;
+    border: none;
+}
